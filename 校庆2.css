@@ -1,0 +1,79 @@
+*{
+	margin: 0;padding: 0;
+ }/*margin 外边距*/
+ .box1
+ {
+ 	position: relative;
+ 	height: 2000px;
+ 	width:100%;
+ 	top: 0px;
+ }
+ .box1 img
+ {
+
+ 	opacity: 0.8;
+ }
+
+ .box2 
+ {
+    position: relative;
+    top: -1900px;
+    left: 550px;
+ }
+
+ .box2 h2
+ {
+ 	position: relative;
+ 	left: 80px;
+ }
+ .box3
+ {
+  position: relative;
+  top: -1850px;
+  left: 143px;
+ }
+ .box3 p
+ {
+   color:black;
+      font-family: 华文楷体;
+ }
+ .box3 a  
+ {
+ 	font-family: 华文楷体;
+  color:black;
+ }
+ .box4  pre
+ {
+ 	 font-size: 1.5em;
+   font-family: 仿宋；
+ }
+ .box5  pre
+ {
+ 	 font-size: 1.0em;
+   font-family: 仿宋；
+ }
+ .box4
+ {
+ 	position: relative;
+ 	top: 30px;
+ 	left: 180px;
+ }
+ .box5
+ {
+ 	position: relative;
+ 	left: 160px;
+ }
+ 
+ .box5 pre
+ {
+   color: black;
+   font-family: 楷体；
+
+ }
+ .box3 a
+ {
+  text-decoration: none;
+  border-style: solid;
+  border-color: rgb(39,64,139);
+  color: rgb(39,64,139);
+ }

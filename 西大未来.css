@@ -1,0 +1,58 @@
+*{
+  margin: 0;padding: 0;
+ }/*margin 外边距*/
+.future
+{
+  position: relative;
+  top: 0px;
+}
+
+.pf-1
+{
+  
+  position: relative;
+  top: -670px;
+  left: 500px;
+
+}
+.pf-2
+{
+  
+  position: relative;
+  top: -690px;
+  left: 750px;
+
+}
+.pf-3
+{
+  
+  position: relative;
+  top: -890px;
+  left: 522px;
+
+}
+/*.pf-5
+{
+  
+  position: relative;
+  top: -1002px;
+  left:585px;
+
+}*/
+.pf-4
+{
+   position: relative;
+   top: -940px;
+   left:880px;
+}
+.pf-4 ul li a
+{
+  border-style: solid;    /*设置边框样式*/
+  text-decoration: none;       /* 消除a标签的下划线   */      
+  border-color: red;             /* 设置边框颜色  */
+  font-size: 1.5em;
+   display:block;   /*此元素显示为块级元素,此元素前后会带有换行符*/
+    float: left;
+    color: red;
+
+}

@@ -1,0 +1,84 @@
+*{
+	margin: 0;padding: 0;
+ }/*margin 外边距*/
+ .box1
+ {
+ 	position: relative;
+ 	height: 2700px;
+ 	width:100%;
+ 	top: 0px;
+ }
+ .box1 img
+ {
+
+ 	opacity: 0.8;
+ }
+
+ .box2 
+ {
+    position: relative;
+    top: -2600px;px;
+    left: 550px;
+ }
+ .box2 h2
+ {
+ 	position: relative;
+ 	left: 80px;
+ }
+ .box3
+ {
+  position: relative;
+  top: -2540px;
+  left: 10px;
+ }
+ .box3 p
+ {
+   color:black;
+
+ }
+ .box3 p 
+ {
+ 	font-family: 华文楷体;
+ }
+
+ .box3 a
+ {
+  color: black;
+  font-family: 华文楷体;
+ }
+ 
+ .box4 pre
+ {
+   font-size: 1.0em;
+   font-family: 仿宋；
+
+ }
+ .box4
+ {
+position: relative;
+top: -2510px;
+left: 130px;
+
+ }
+  .box3 pre
+ {
+   font-size: 1.0em;
+   font-family: 仿宋；
+
+ }
+ .box3 a
+ {
+  text-decoration: none;
+  border-style: solid;
+  border-color: rgb(39,64,139);
+  
+ }
+ .one
+ {
+  position: relative;
+  left:430px;
+ }
+ .box4 pre
+ {
+  font-family: 楷体;
+ }

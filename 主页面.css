@@ -1,0 +1,178 @@
+*{
+	margin: 0;padding: 0;
+ }/*margin 外边距*/
+}
+.box1{
+	  height:2000px;                            /*用外联式css为div设置宽 高*/
+	  width:100%px ;
+      position: absolute;                         /*第一个div设置为绝对定位*/
+      top:0px;
+     }
+.box1 img {
+	      width: 100%;
+	      height: 700px;
+	      background: rgba(225,225,225,0.68);       /* 用rgba调整颜色及透明度*/
+          opacity: 0.68;                            /* opacity是用来调整图片透明度的一个属性*/
+         }
+   .menu{ 
+        margin-top: 100px; 
+        border: 2px solid #aac; /*利用相对定位调整菜单悬浮在box1上*/
+        display:inline-block;   /*使元素具有宽高度特性,又具有同行特性*/
+        position: relative;
+        top:-775px;
+        left:420px;        /*用left、top调整块状元素所在的位置*/
+    }
+    
+    
+    .menu a {
+        text-decoration: none;    /* 去掉a标签的下划线 */
+    }
+    
+    /* 设置ul和li的样式 */  /*空格是后代选择器*/
+    .menu ul , .menu li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        float: left;  /*用浮动使菜单以行排列，未用浮动前是一列的菜单样式，解释能力有点差，评委给点机会啊*/
+    } 
+     /* 一级菜单 */
+    .menu > ul > li > a {
+        width: 120px;
+        line-height: 40px;
+        color: white;
+        background-color:rgba(0,255,255,0);  /*通过rgba里（r，g，b，a）的第四个参数来调整透明度，使得菜单背景色透明而文字不透明*/
+        text-align: center;
+        border-style:none;
+        display: block;
+    }
+    
+    /* 在一级菜单中，第一个不设置左边框 */
+    .menu > ul > li:first-child > a {
+        border-left: none;
+    }
+
+    /* 在一级菜单中，鼠标放上去的样式 */
+    .menu > ul > li > a:hover {
+        color: #f0f;                      /*用伪类使鼠标移上去菜单的文本颜色和背景颜色发生改变*/
+        background-color: #bcf;
+    }
+    /*-------------------------------搜索栏css  开始-------------------*/
+    .search-container{
+    	   float: right;                  /*向右浮动*/
+    	   position: relative;
+    	   top: 8px;
+    }
+ 
+   .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;              /*  设置元素的上外边距*/
+  margin-right: 16px;         /* 设置元素的右外边距*/
+  background-color: rgba(0，255，255，0);/* 用rgba调整颜色及透明度*/
+  font-size: 17px;         /* 设置元素的尺寸*/
+  border: none;             /*设置无边框*/
+  cursor: pointer;   /* 设定光标类型*/
+   }
+   .search-container button:hover {            /* 设置伪类背景色*/
+  background: #ccc;
+   }
+ @media screen and (max-width: 600px) {
+   .search-container {
+    float: none;            /* 消除浮动*/
+  }
+  .search-container[type=text],  .search-container button {
+    float: none;
+    display: block;      /*此元素显示为块级元素,此元素前后会带有换行符*/
+    text-align: left;
+    width: 100%;
+    margin: 0;               /*margin 外边距*/
+    padding: 14px;              /*设置四个内边距*/
+  } 
+ .search-container input[type=text] {
+    border: 1px solid #ccc;    /* 设置边框及边框颜色*/
+  }
+}
+/*---------搜索栏结束-------------------*/
+.box2{
+      position: relative;
+      top: -750px;
+      left:550px;
+
+
+}
+.box3
+{
+position: relative;
+      top: -640px;
+      left:580px;
+}
+.box3 h1{
+
+	font-size: 2.5em;/*css设定字体大小的属性*/
+	font-family: 楷体;/*css设定字体样式的属性*/
+	font-weight: 800;/*字体加粗*/
+}
+.box1 img{
+
+	opacity: 0.85; /* 调整图片透明度*/
+}
+.box4{
+      position: relative;
+      top: -530px;
+      left:370px;
+
+}
+.box4 p{
+
+	font-size: 1.5em;/*css设定字体大小的属性*/
+	font-family: 华文楷体;/*css设定字体样式的属性*/
+	font-weight: 500;/*字体加粗*/
+}
+.go{
+
+   position: relative;
+   top: -400px;
+   left: 640px;
+
+}
+.go >ul> li> a{
+
+color: white;
+text-decoration: none;                    /*消除进入溜达的下划线*/
+border-style: solid; 
+border-color: white;              /*给进入溜达设置边框和颜色  */     
+font-size: 1.5em;
+display:block;                        /*此元素显示为块级元素,此元素前后会带有换行符*/
+float: left;                       /*元素向左浮动*/
+
+}
+
+.edit
+{
+  position: absolute;  
+  top:701px;
+  height: 395px;
+  width: 1690px;
+  left: 0px;
+}
+.smile
+{
+  height:130px ;
+  width:100% ;
+  position:relative;
+  top:-50px;
+  left:0px;
+  /*background-color: #0000cd;*/
+  color:white;
+  background-color: rgb(39,64,139);
+}
+
+.smile p
+{
+ 
+  
+  font-size: 1.0em;/*css设定字体大小的属性*/
+	font-family: 华文楷体;/*css设定字体样式的属性*/
+	font-weight: 300;/*字体加粗*/
+  color: white；
+}

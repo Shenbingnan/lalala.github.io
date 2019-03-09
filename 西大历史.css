@@ -1,0 +1,61 @@
+*{
+  margin: 0;padding: 0;
+ }/*margin 外边距*/ /* padding设置内边距*/
+.part-two{
+height: 639px;
+width: 963px;
+position: relative;
+top: 0px
+}
+
+.pt-1
+{
+	height:62px;
+	width: 160px; 
+  position: relative;
+  top: -660px;
+  left: 440px;
+
+}
+.pt-2
+{
+	
+  position: relative;
+  top: -620px;
+  left: 820px;
+
+}
+.pt-3
+{
+	
+  position: relative;
+  top:-900px;
+  left:480px;
+
+}
+.pt-4
+{
+	height:62px;
+	width: 160px; 
+  position: relative;
+  top: -1150px;
+  left:680px;
+
+}
+.pt-5 ul li a
+{
+	border-style: solid;   
+  text-decoration: none;                 
+  border-color: red;                
+  font-size: 1.6em;  /*设置字体大小*/
+   display:block;  /*此元素显示为块级元素,此元素前后会带有换行符*/
+    float: left;
+    color: red;
+
+}
+.pt-5
+{
+   position: relative;
+   top: -1020px;
+   left: 850px;
+}

@@ -1,0 +1,156 @@
+*{
+	margin: 0;padding: 0;
+ }/*margin 外边距*/
+ .box1
+ {
+ 	position: relative;
+ 	height: 2100px;
+ 	width:100%;
+ 	top: 0px;
+ }
+ .box1 img
+ {
+
+ 	opacity: 0.8;
+ }
+
+ .box2 
+ {
+    position: relative;
+    top: -1900px;
+    left: 550px;
+ }
+ .box2 h2
+ {
+ 	position: relative;
+ 	left: 80px;
+ }
+ .box2 h1 
+ {
+ 	color: pink;
+ }
+ .box2 h2
+ {
+ 	color: pink;
+ }
+ .box3
+ {
+  position: relative;
+  top: -1850px;
+  left: 30px;
+ /* height: 1000px;
+  width: 100%;*/
+ }
+ .box3 h3 
+ {
+ 	color: pink;
+ }
+ .box3 p 
+ {
+   color:pink;
+
+ }
+ .box3 a 
+ {
+ 	font-family: 华文楷体;
+   border-style: solid;
+   border-color: pink;      /*给边框设置颜色*/
+   text-decoration:none;   /*消除a标签下划线*/
+ }
+ .box3  a
+ {
+ 	color: pink;
+ }
+ .one
+ {
+position: relative;
+top: 100px;
+left:;
+ }
+ 
+
+ .two
+ {
+position: relative;
+top: 200px;
+left:;
+ }
+ 
+  .three
+ {
+position: relative;
+top: 270px;
+left:;
+ }
+ 
+  .four
+ {
+position: relative;
+top: 350px;
+left:;
+ }
+ 
+  .five
+{
+position: relative;
+top: 430px;
+left:;
+}
+ .six p
+ {
+ 	color: pink;
+ }
+  .six
+{
+position: relative;
+top:-1350px;
+left: 40px;
+}
+  .seven
+ {
+position: relative;
+top: 30px;
+left:;
+ }
+ 
+   .eight
+ {
+position: relative;
+top: 20px;
+left:;
+ }
+   .nine
+ {
+position: relative;
+top: 20px;
+left:;
+ }
+ 
+   .ten
+ {
+position: relative;
+top:30px;
+left:;
+ }
+.eleven
+ {
+position: relative;
+top:30px;
+left:;
+ }
+   .twelve
+ {
+position: relative;
+top:30px;
+left:;
+
+ }
+  .twelve  a
+  {
+  	border-style: solid;
+  	border-color: pink;
+  	color: pink;
+  	text-decoration:none;
+  }
+
+ 

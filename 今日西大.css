@@ -1,0 +1,92 @@
+*{
+  margin: 0;padding: 0;
+ }/*margin 外边距*/
+.today
+{
+  position: relative;
+  top: 0px;
+}
+.part-three{
+height: 639px;
+width: 963px;
+position: relative;
+}
+
+.ph-1
+{
+  
+  position: relative;
+  top: -720px;
+  left: 300px;
+
+}
+.ph-2
+{
+  
+  position: relative;
+  top:-700px ;
+  left: 330px;
+
+}
+.ph-3
+{
+  
+  position: relative;
+  top: -705px;
+  left:385px;
+
+}
+.ph-4
+{
+  height:62px;
+  width: 160px; 
+  position: relative;
+  top: -970px;
+  left:740px;
+
+}
+.ph-5 ul li a
+{
+  border-style: solid;   
+  text-decoration: none;                 
+  border-color: red;                
+  font-size: 1.5em;/*此元素显示为块级元素,此元素前后会带有换行符*/
+   
+    float: left;
+    color: red;
+
+}
+.ph-5
+{
+   position: relative;
+   top: -810px;
+   left:760px;
+}
+.ph-6
+{
+   position: relative;
+   top: -1050px;
+   left: 390px;
+}
+
+
+.ph-6 pre
+{
+    font-size:1.0em;/*css设定字体大小的属性*/
+  font-family: 仿宋体;/*css设定字体样式的属性*/
+  font-weight: 300;/*字体加粗*/
+    color:red;
+  }
+.ph-7
+{
+   position: relative;
+   top: -1050px;
+   left: 395px;
+}
+.ph-7 p
+{
+    font-size: 1.0em;/*css设定字体大小的属性*/
+  font-family: 华文楷体;/*css设定字体样式的属性*/
+  font-weight: 300;/*字体加粗*/
+    color:red;
+}
